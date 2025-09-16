@@ -27,3 +27,7 @@ make evaluate EVAL_IMG=/absolute/path/to/your_image.png EVAL_ANN=/absolute/path/
 - **IoU=0.5 (domyślnie)**: rozsądne dla dokumentów, ale można zacieśnić (np. 0.6–0.75) parametrem `iou_threshold`.
 - **Dopasowanie etykiet**: trafienie liczone tylko przy zgodnym typie (np. Text vs Table), żeby ocena odzwierciedlała semantykę, nie tylko geometrię.
 
+## Podgląd wyników
+
+![compare](compare.png)
+
