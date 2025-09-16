@@ -1,5 +1,5 @@
 from fastapi import APIRouter, File, UploadFile, HTTPException
-from ..core.model import predict
+from ..core.model import predict, get_label_name
 import numpy as np
 import cv2
 from pydantic import BaseModel
@@ -42,7 +42,7 @@ async def detect_layout(file: UploadFile = File(...)):
             y_1=block.block.y_1,
             x_2=block.block.x_2,
             y_2=block.block.y_2,
-            type=block.type,
+            type=get_label_name(block.type),
             score=block.score
         ) for block in layout
     ]
