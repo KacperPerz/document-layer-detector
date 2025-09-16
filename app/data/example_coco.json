@@ -1,0 +1,16 @@
+{
+  "images": [
+    { "id": 1, "file_name": "example_data.png" }
+  ],
+  "categories": [
+    { "id": 0, "name": "Text" },
+    { "id": 1, "name": "Title" },
+    { "id": 2, "name": "List" },
+    { "id": 3, "name": "Table" },
+    { "id": 4, "name": "Figure" }
+  ],
+  "annotations": [
+    { "id": 1, "image_id": 1, "category_id": 0, "bbox": [50, 80, 420, 120] },
+    { "id": 2, "image_id": 1, "category_id": 4, "bbox": [500, 200, 180, 140] }
+  ]
+}

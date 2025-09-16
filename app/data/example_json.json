@@ -1,0 +1,6 @@
+{
+  "annotations": [
+    { "bbox": [50, 80, 470, 200], "label": "Text" },
+    { "bbox": [500, 200, 680, 340], "label": "Figure" }
+  ]
+}
