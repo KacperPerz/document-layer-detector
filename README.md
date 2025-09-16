@@ -18,9 +18,3 @@ Use your own files (overrides):
 make evaluate EVAL_IMG=/absolute/path/to/your_image.png EVAL_ANN=/absolute/path/to/your_annotations.json IOU=0.5
 ```
 
-Detect on your own image:
-
-```sh
-make detect DETECT_IMG=/absolute/path/to/your_image.png
-```
-
